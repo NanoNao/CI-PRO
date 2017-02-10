@@ -20,8 +20,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index($data)
 	{
-		$this->load->view($data);
+  $this->load->library('form_validation');
+   $this->load->helper('form');
+
 		$this->load->view('templates/header');
 		$this->load->view('templates/navbar');
+$this->load->view($data);
 	}
 }
