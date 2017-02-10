@@ -20,6 +20,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index($data)
 	{
+<<<<<<< HEAD
 		$this->load->view($data);
+=======
+		$this->load->view('templates/header');
+		$this->load->view('templates/navbar');
+>>>>>>> b98340d163358c7f2f8ff01b7b4dd3f83242a7ec
 	}
 }
