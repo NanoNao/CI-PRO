@@ -1,6 +1,6 @@
 <?php
 
-/* Controler de la gestion des LOGIN */
+/* Controler de la gestion des LOGIN . */
 
 Class Auth extends CI_Controller {
 
