@@ -12,7 +12,8 @@
 </head>
 <!--header-->
 <body style="background-color:#707070 ;">
-  <!--navbar-->
+  <!--SteelSheet-->
+
   <style media="screen">
   .navbar{
     border-radius:0px;
@@ -83,7 +84,7 @@
   </nav>
   <!--Fin Navbar-->
 
-  <div class ="row">
+  <div class ="row">  <!-- Bouton connectez vous -->
     <div class="col-md-6 col-md-offset-3 well">
       <h2 class="text-center">Connectez-vous</h2>
     </div>
@@ -91,11 +92,11 @@
       <div class = "row">
         <div class="col-xs-12">
           <div class="col">
-            <div class="col-xs-3 col-md-offset-3">
+            <div class="col-xs-3 col-md-offset-3"> <!-- Indication -->
               <p><label>Identifiant:</label></p>
               <p><label>Mot de passe:</label></p>
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-3"> <!-- Zone de saisie des identifiant -->
               <p><input type="text" name="username" id="name" placeholder="Identifiant"/></p>
               <p><input type="password" name="password" id="password" placeholder="**********"/></p>
               <button type="button" name="button"  class ="btn-primary btn btn-block">Envoyer</button>
